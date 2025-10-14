@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ReplyGenerator
+comment1.params=
+comment1.target=ReplyGenerator()
+comment2.params=userMessage
+comment2.target=java.lang.String\ createReply(java.lang.String)
+numComments=3

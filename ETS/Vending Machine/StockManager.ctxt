@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=StockManager
+comment1.params=
+comment1.target=StockManager()
+comment2.params=name
+comment2.target=int\ getStock(java.lang.String)
+comment3.params=name
+comment3.target=void\ DecreaseStock(java.lang.String)
+comment4.params=
+comment4.target=void\ ReportEmpty()
+numComments=5

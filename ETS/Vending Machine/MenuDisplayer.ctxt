@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=MenuDisplayer
+comment1.params=
+comment1.target=MenuDisplayer()
+comment2.params=
+comment2.target=void\ DisplayMenuAndSize()
+comment3.params=index
+comment3.target=java.lang.String\ GetMenuFromIndex(int)
+comment4.params=drink\ totalPrice
+comment4.target=void\ DisplayTotalPrice(java.lang.String,\ int)
+numComments=5

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TextReader
+comment1.params=
+comment1.target=TextReader()
+comment2.params=
+comment2.target=java.lang.String\ readMessage()
+numComments=3
