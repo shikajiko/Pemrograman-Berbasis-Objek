@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=TransactionHandler
-comment1.params=
-comment1.target=TransactionHandler()
-comment2.params=name
-comment2.target=int\ GetPriceFromName(java.lang.String)
-comment3.params=paidAmount\ totalPrice
-comment3.target=int\ VerifyPayment(int,\ int)
-numComments=4
