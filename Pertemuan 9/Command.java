@@ -27,4 +27,8 @@ public class Command
     public boolean hasSecondWord(){
         return (secondWord != null);
     }
+    
+    public void test(){
+    
+    }
 }
