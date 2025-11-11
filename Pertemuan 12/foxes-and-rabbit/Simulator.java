@@ -21,7 +21,24 @@ public class Simulator{
         }
     }
 
-    private void populate(){
-        //add logic to populate later
+    private void populate() {
+        java.util.Random rand = new java.util.Random();
+        for (int row = 0; row < field.getDepth(); row++) {
+            for (int col = 0; col < field.getWidth(); col++) {
+                double random = rand.nextDouble();
+                Location location = new Location(row, col);
+
+                if (random <= 0.05) {
+                    Fox fox = new Fox(field, location);
+                    animals.add(fox);
+                    field.place(fox, location);
+                } else if (random <= 0.25) {
+                    Rabbit rabbit = new Rabbit(field, location);
+                    animals.add(rabbit);
+                    field.place(rabbit, location);
+                }
+            }
+        }
     }
+
 }

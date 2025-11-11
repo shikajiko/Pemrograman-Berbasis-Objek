@@ -3,9 +3,13 @@ import java.util.ArrayList;
 
 public class Field{
     private Object[][] field;
+    private int width;
+    private int depth;
 
     public Field(int depth, int width){
         field = new Object[depth][width];
+        this.width = width;
+        this.depth = depth;
     }
 
     public void clear(Location location){
@@ -36,5 +40,13 @@ public class Field{
     public List<Location> adjacentLocations(Location location){
         List<Location> locations = new ArrayList<>();
         return locations;
+    }
+
+    public int getDepth(){
+        return depth;
+    }
+
+    public int getWidth(){
+        return width;
     }
 }
