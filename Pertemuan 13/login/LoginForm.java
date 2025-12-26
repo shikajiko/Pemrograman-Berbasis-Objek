@@ -1,12 +1,7 @@
-    import java.awt.*;
+import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-/**
- * Write a description of class LoginForm here.
- *
- * @author Ahmad Satrio Arrohman
- * @version 20251118 - 0.0.1
- */
+
 public class LoginForm extends JFrame
 {
     private JTextField usernameField;
